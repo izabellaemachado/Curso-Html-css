@@ -6,7 +6,7 @@
     <title>Media Query</title>
     <style>
         /*declarações gerais*/
-               
+        @media all {
         * {
             margin: 0px;
             padding: 0px;
@@ -27,21 +27,20 @@
             text-shadow: 2px 2px 0px #1526a7;
             padding: 10px;
         }
+    }
         /* declarações retrato*/
-        @media screen and (orientation: portrait){
-            body {
+    @media screen and (orientation: portrait) {
+        body {
     background-image: url(../imagens/cev-portrait.jpg);
     background-position: center bottom;
-                }
+        }
         }
 
-
         /*declarações paisagem*/
-        @media screen  and (orientation: landscape){
-                    
+    @media screen  and (orientation: landscape){
         body {
-            background-image: url(../imagens/cev-portrait.jpg);
-            background-position: center bottom;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
         }
     }
     </style>
