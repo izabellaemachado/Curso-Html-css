@@ -47,13 +47,13 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #d6c7e1;
+    background-color: #cecdcf;
     color: white;
     border-top: 2px solid gray;
 }
 
 menu > ul > li > a:hover {
-    background-color: #ff8ad49f;
+    background-color: #717eaa9f;
 }
 
 main {
